@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "mcp-client": "^1.13.1"
+  }
+}
