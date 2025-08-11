@@ -7,7 +7,13 @@ So why observability is so expensive? You need to save tons of time series data 
 
 With this code agent, it will decide what metrics should be created and depreciated for you so can just focus on vide coding, which is the easiest thing in software engineering. It will also tells you what the heathness of your service so you don't need to worry about service maintainence.
 
-One big cost cut is that with this code agent, you don't need to save heavy time series data any more, you will only need to save **signals**.
+One big cost cut is that with this code agent, you don't need to save heavy time series data any more, you will only need to save **signals**. Signals are defined by notable events like service down, qps increase/decrease, error increas/down, etc.
+
+# Architecture
+
+## LLM workflow
+
+## Evaluation
 
 # Code Observability & SLA Dashboard
 
