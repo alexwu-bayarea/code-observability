@@ -21,6 +21,10 @@ Code reflection agent will be triggered after each pr deployment, this agent wil
 
 ### MCP for data collection and tool calling
 all metrics are metrized query, which means all the raw metrics are time series data. These metrics will be published to MCP server.
+Raw metrics data will be post process based on how MCP function call is defined. For example, the function tool 'SLA abnomoly' will extract notable sla metrics (error rate, latency) as signals.
+
+### Devops assistant
+The chat assitant will do function calling based on chat context.
 
 ## Evaluation
 ### LLM-AS-Judge with Human Feedback
