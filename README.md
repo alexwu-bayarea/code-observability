@@ -1,3 +1,8 @@
+# Background
+
+Software industry benchmarks suggest that observability typically accounts for ~10–17% of total infrastructure spend, 300 dollars per month per engineer. This project is to show that with our coding agent, you can save your
+observability cost to zero.
+
 # Code Observability & SLA Dashboard
 
 This repository contains a lightweight, built-in observability layer and SLA dashboard for the PickleGlass web backend and web UI. It instruments the Express API, aggregates request metrics in-memory, exposes metrics endpoints (JSON + Prometheus), and renders a Next.js dashboard for fast feedback while developing.
