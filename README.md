@@ -13,7 +13,17 @@ One big cost cut is that with this code agent, you don't need to save heavy time
 
 ## LLM workflow
 
+### Signal reflection agent
+Signals reflection agent is triggered daily to decide what metrics should be depreciated.
+
+### Code reflection agent
+Code reflection agent will be triggered after each pr deployment, this agent will decide what metrics need to be added and depreciated together with the information gathered by signals reflection agent.
+
+### MCP for data collection and tool calling
+all metrics are metrized query, which means all the raw metrics are time series data. These metrics will be published to MCP server.
+
 ## Evaluation
+### LLM-AS-Judge with Human Feedback
 
 # Code Observability & SLA Dashboard
 
